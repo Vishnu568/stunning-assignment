@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            header{
+               margin: 10px;
+                height: 60px;
+               width: 100%;
+                display: flex;
+                justify-content: space-around;
+
+            }
+            .account{
+                border: 1px pink;
+                width: 200px;
+                height: 50px;
+                background-color: rgb(230, 132, 165);
+                border-radius: 20px;
+               flex-wrap: nowrap;
+               text-align: center;
+               color: blue;
+               
+            }
+            .top{
+                display: flex;
+                flex-direction: row;
+                gap: 50px;
+                opacity: .8;
+               
+            }
+            .top div:hover{
+                background-color: white;
+                text-decoration-line: underline;
+                text-decoration-color: blue;
+                text-decoration-thickness: 5px;
+                cursor: pointer;  
+                 font-weight: bolder;
+            }
+            .dot{
+                position: relative;
+                top: -40px;
+                left: 470px;
+                border: 1px blue;
+                height: 10px;
+                width: 10px;
+                background-color: rgb(63, 11, 248);
+            }
+           .container{
+            display: flex;
+            flex-wrap: wrap;
+            width: 50%;
+            padding: 100px;
+            }
+            main{
+                display: flex;
+                margin: 30px;
+                width: 70%;
+            }
+            .weight{
+                font-size: 50px;
+            }
+           .new{
+            border: 1px blueviolet;
+            height: 60px;
+            width: 180px;
+            background-color: blueviolet;
+            color: blanchedalmond;
+            margin-bottom: 10px;
+            border-radius: 25px;
+            flex-wrap: wrap;
+            text-align: center;
+           }
+           .tick{
+            position: relative;
+            top: 50px;
+            left: 0px;
+           
+           }
+           .card{
+            display: flex;
+            border: 1px white;
+            flex-wrap: nowrap;
+            width: 500px;
+            height: 50px;
+            border-radius: 20px;
+            justify-content: space-between;
+            padding: 6px;
+           }
+           .colorpink{
+            border: 1px #fed7da;
+            height: 10px;
+            width: 20px;
+            background-color: #fed7da;
+            border-radius: 10px;
+            margin-top: 18px;
+           }
+           .colorred{
+            border: 1px #fd6534;
+            height: 10px;
+            width: 20px;
+            background-color: #fd6534;
+            border-radius: 10px;
+            margin-top: 18px;
+           }
+           .colorgreen{
+            border: 1px #9ed095;
+            height: 10px;
+            width: 20px;
+            background-color: #9ed095;
+            border-radius: 10px;
+            margin-top: 18px;
+           }
+           .colororenge{
+            border: 1px #ffe4a0;
+            height: 10px;
+            width: 20px;
+            background-color: #ffe4a0;
+            border-radius: 10px;
+            margin-top: 18px;
+           }
+           .card:hover{
+            background-color: #f1ebec;
+            cursor: pointer;
+            box-shadow: 5px 5px   grey;
+           }
+
+        </style>
+    </head>
+    <body>
+        <header>
+            <div><img src="stunning-logo.png" height="70px" width="150px"/></div>
+            <div class="top">
+                <div><p>Home</p></div>
+            <div><p>About</p></div>
+            <div><p>Blog</p></div>
+            <div><p>Jobs</p></div>
+            </div>
+            <div class="account"><p>Your Account</p></div>
+        </header>
+        <main>
+           <div class="container">
+            <div class="weight"><h1><b>Stunning Workplace</b><div class="dot"></div></h1></div>
+        <p style="font-size: 20px;">With Stunning, remote teams can organize projects, manage shifting priorities, and get work done.</p>
+        <div class="new">
+            <h4>New Account</h4></div>
+        <div style="margin-left: 10px;">
+            <img src="arrow-up.png"/>
+        </div>
+        <div style="margin-left: 10px;">
+            <img src="arrow-down.png"/>
+        </div>
+        <div class="tick">
+        <div class="card">
+            <img src="tick-gray.png"/>
+            <p>DmDesign</p>
+            <img src="user-pink.png"/>
+            <p>20 DEC</p>
+        <div class="colorpink"></div>
+        </div>
+        <div class="card">
+            <img src="tick-blue.png"/>
+            <p>Animation</p>
+            <img src="user-orange.png"/>
+            <p>22 DEC</p>
+        <div class="colorred"></div>
+        </div>
+        <div class="card">
+            <img src="tick-gray.png"/>
+            <p>Illustration</p>
+            <img src="user-blue.png"/>
+            <p>26 DEC</p>
+        <div class="colorgreen"></div>
+        </div>
+        <div class="card">
+            <img src="tick-gray.png"/>
+            <p>Illustration</p>
+            <img src="user-pink.png"/>
+            <p>28 DEC</p>
+        <div class="colororenge"></div>
+        </div>
+        </div>
+        </div>
+        <div>
+           <img src="landing-section-image.png" height="700px" width="600px"/>
+        </div>
+        </main>
+    </body>
+</html>
